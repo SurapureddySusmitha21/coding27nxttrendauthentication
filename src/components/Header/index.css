@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+.nav-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+.website-logo {
+  height: 8vh;
+  width: 30%;
+  padding-left: 30px;
+}
+.nav-menu {
+  display: flex;
+}
+.nav-link {
+  list-style-type: none;
+  padding-left: 20px;
+  color: #64748b;
+  font-size: 20px;
+}
+.logout-desktop-btn {
+  background-color: #0b69ff;
+  padding: 10px;
+  color: #ffffff;
+  margin-right: 30px;
+}
+.logout-mobile-btn {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .logout-mobile-btn {
+    height: 8vh;
+    width: 10%;
+    display: flex;
+  }
+  .logout-desktop-btn {
+    display: none;
+  }
+  .website-logo {
+    height: 5vh;
+    width: 20%;
+    padding-left: 10px;
+  }
+}

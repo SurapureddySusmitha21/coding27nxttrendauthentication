@@ -1,0 +1,50 @@
+/* Write your CSS code here */
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+@media screen and (max-width: 768px) {
+  .home-mobile-img {
+    display: flex;
+  }
+  .home-desktop-img {
+    display: none;
+  }
+}
+.home-mobile-img {
+  display: none;
+}
+.home-desktop-img {
+  height: 55vh;
+  width: 100%;
+  margin-top: 100px;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+.home-heading {
+  color: #1e293b;
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+.home-description {
+  color: #64748b;
+  font-size: 20px;
+  font-weight: 400;
+}
+.shop-now-button {
+  background-color: #0967d2;
+  padding: 15px;
+  border-radius: 10px;
+  color: #ffffff;
+  width: 50%;
+}
